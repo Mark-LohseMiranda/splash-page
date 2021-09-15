@@ -14,14 +14,12 @@ h2 {
 
 header {
     background-color: blue;
-    position: relative;
     width: 100%;
 }
 
 nav {
-    position: relative;
-    right: -0px;
-    padding: 20px;
+    width: 100%;
+    text-align: right;
    
 }
 
@@ -29,6 +27,7 @@ nav li {
     color: white;
     margin-left: 20px;
     display: inline-block; 
+    padding: 20px;
     
 }
 
