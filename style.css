@@ -1,0 +1,59 @@
+body {
+    position: relative;
+    width: 100%;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+
+header {
+    background-color: blue;
+    position: relative;
+    width: 100%;
+}
+
+nav {
+    position: relative;
+    right: -0px;
+    padding: 20px;
+   
+}
+
+nav li {
+    color: white;
+    margin-left: 20px;
+    display: inline-block; 
+    
+}
+
+main {
+    background-color: lightgrey;
+    text-align: center;
+}
+
+.contact {
+    position: relative;
+    text-align: center;
+    padding: 50px;
+    background-color: tan;
+    color: white;
+}
+
+.contact-form {
+    border: 2px solid black;
+    /* width: 200px; */
+
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: blue;
+    color: white;
+}
