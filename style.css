@@ -1,10 +1,7 @@
-body {
-    position: relative;
-    width: 100%;
-}
 
 h1 {
     font-size: 48px;
+    padding: 20px;
 }
 
 h2 {
@@ -34,25 +31,49 @@ nav li {
 main {
     background-color: lightgrey;
     text-align: center;
+
+}
+
+main p {
+    height: auto;
+    width: 60%;
+    margin: 20px auto;
+    
+}
+
+.picture-box {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-image: url("https://placekitten.com/300/300"); 
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.picture-box h2 {
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
 }
 
 .contact {
-    position: relative;
-    text-align: center;
-    padding: 50px;
+    
+    padding: 20px;
     background-color: tan;
     color: white;
 }
 
 .contact-form {
     border: 2px solid black;
-    /* width: 200px; */
-
+    border-radius: 10px;
+    width: auto;
+    padding: 10px;
 }
 
 footer {
     text-align: center;
-    padding: 25px;
+    padding: 15px;
     background-color: blue;
     color: white;
 }
